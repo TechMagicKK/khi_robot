@@ -87,7 +87,7 @@
 
     <link name="${prefix}base_link"/>
 
-    <link name="${prefix}base_plate">
+    <link name="${prefix}khi_base_plate">
       <visual>
         <geometry>
           <mesh filename="package://khi_duaro_description/meshes/WD002N_F502_Baseplate.stl"/>
@@ -131,7 +131,7 @@
     <joint name="${prefix}joint_plate" type="fixed">
       <origin xyz="0 0 0.0"/>
       <parent link="${prefix}base_link"/>
-      <child link="${prefix}base_plate"/>
+      <child link="${prefix}khi_base_plate"/>
     </joint>
 
     <!-- lower arm -->
